@@ -1,0 +1,41 @@
+/****start default theme*****/
+
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+	background: #E41b17;
+}
+
+.navbar-inverse .navbar-brand span{
+	color: #E41b17;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	border-top: 3px solid #E41b17;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	background: #E41b17;
+}
+.carousel-indicators .active{
+	background: #E41b17;
+}
+.option-box .color-option{
+	border:4px solid #E41B17;
+}
+.option-box .gear-check{
+	background: #E41B17;
+}
+.about h1 span{
+	color:  #E41b17;
+}
+.testmonials .carousel-indicators li.active{
+	border: 3px solid #E41b17;
+}
+.nicescroll-cursors{
+	background: #E41b17 !important;
+}
+/****end default theme*****/
+

@@ -1,0 +1,35 @@
+/****start default theme*****/
+
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.option-box .gear-check
+{
+	background: #009AFF;
+}
+body{
+	background: #009AFF;
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testmonials span{
+	color: #009AFF;
+}
+.option-box .color-option,
+.testmonials .carousel-indicators li.active{
+	border:3px solid #009AFF;
+}
+.navbar-nav > li > .dropdown-menu{
+	border-top: 3px solid #009AFF;
+}
+.nicescroll-cursors{
+	background: #009AFF !important;
+}
+
+/****end default theme*****/
+

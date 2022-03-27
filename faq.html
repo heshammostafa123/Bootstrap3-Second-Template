@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bootstrap 3</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/pages.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+sans:400,700">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:900">
+	<link rel="stylesheet" type="text/css" href="css/default_theme.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+</head>
+<body>
+<!--start section Tool Box-->
+<div class="option-box">
+	<div class="color-option">
+		<h2>Color Option</h2>
+		 <ul class="list-unstyled">
+		 	<li data-value="css/default_theme.css"></li>
+			<li data-value="css/purple_theme.css"></li>
+			<li data-value="css/blue_theme.css"></li>
+			<li data-value="css/yellow_theme.css"></li>
+		 </ul>
+	</div>
+	<i class="fa fa-gear fa-3x gear-check"></i>
+</div>
+<!--end section Tool Box-->
+
+<!--start our navbar-->
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand hvr-buzz-out" href="#">Boot<span>strap3</span></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="ournavbar">
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="main.html">Home<span class="sr-only">(current)</span></a></li>
+	        <li><a href="about.html">About</a></li>
+	        <li class="active"><a href="faq.html">FAQ</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Programming</a></li>
+	            <li><a href="#">WEb Design</a></li>
+	            <li><a href="#"> Desktop</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Web Hosting</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="#">Map</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+<!--end our navbar-->
+
+<!--start breadcrumb-->
+<div class="breadcrumb-holder text-center">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="main.html">Home</a></li>
+			<li class="active">FAQ</li>
+		</ol>
+	</div>
+</div>
+
+<!--end breadcrumb-->
+
+<!--Start FAQ Intro-->
+<section class="faq text-center">
+	<div class="container">
+		 <h1>Frequently Asked Questions</h1>
+		 <hr/>
+		 <p class="lead">Here You Will Find All Questions Are Searching For And The Full KnowledgeBase</p>
+	</div>
+</section>
+<!--end FAQ Intro-->
+
+<!--start faq question using Accordion example in javascript-->
+<div class="faq-question">
+	<div class="container">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		  <!--start question 1-->
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          #1 How To use Bootstrap ?
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <!--end question 1-->
+		  <!--start question -->
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          #2 How To use media queries ?
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <!--end question 2-->
+		  <!--start question 3-->
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingThree">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		           #3 How To create Your own slider ?
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <!--end question 3-->
+		</div>
+	</div>
+</div>
+
+<!--end faq question-->
+
+
+<!--start section footer-->
+<section class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h3>Sitemap</h3>
+				<ul class="list-unstyled three-columns">
+					<li>Home</li>
+					<li>About</li>
+					<li>Company</li>
+					<li>Code</li>
+					<li>Design</li>
+					<li>Host</li>
+					<li>Solutions</li>
+					<li>Sitemap</li>
+					<li>contact</li>
+				</ul>
+				<ul class="list-unstyled social-list">
+					<li><img src="images/13.jpg" class="img-responsive"></li>
+					<li><img src="images/14.jpg" class="img-responsive"></li>
+					<li><img src="images/15.jpg" class="img-responsive"></li>
+					<li><img src="images/16.jpg" class="img-responsive"></li>
+					<li><img src="images/17.jpg" class="img-responsive"></li>
+					<li><img src="images/18.jpg" class="img-responsive"></li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<h3>Latest Articles</h3>
+				<div class="media">
+					<a href="#" class="pull-left">
+						<img src="images/19.jpg">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Programming</h4>
+						This Is Some Text About  Programming DEscribe  The Media Of Bootstrap 
+					</div>
+				</div>
+				<div class="media">
+					<a href="#" class="pull-left">
+						<img src="images/20.jpg">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Coding</h4>
+						This Is Some Text About  Programming DEscribe  The Media Of Bootstrap 
+					</div>
+				</div>
+				<div class="media">
+					<a href="#" class="pull-left">
+						<img src="images/21.jpg">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Web Design</h4>
+						This Is Some Text About  Programming DEscribe  The Media Of Bootstrap 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 ">
+				<h3>Our Awesome Work</h3>
+				<img src="images/19.jpg" class="img-thumbnail">
+				<img src="images/20.jpg" class="img-thumbnail">
+				<img src="images/19.jpg" class="img-thumbnail">
+				<img src="images/21.jpg" class="img-thumbnail">
+			</div>
+		</div>
+	</div>
+	<div class="text-center copyright">
+		Copyright $copy;2014 <span>Your Template Name</span>.Inc
+	</div>
+</section>
+
+<!--start overly section>
+<section class="loading-overlay text-center">
+	<h1>The Website Is Loading Now</h1>
+</section>
+<end overly section-->
+
+<!--strat scroll to top-->
+<div id="scroll-top">
+	<i class="fa fa-chevron-up fa-3x"></i>
+</div>
+<!--end scroll to top-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
